@@ -1,0 +1,218 @@
+html,body {
+    height: 100%;
+    width:100%;
+}
+
+body {
+	font-size: 100%;
+	font-weight: normal;
+    color: #555;
+    margin: 0;
+    font: 18px "Times New Roman", Times, serif;
+    line-height: 30px;
+}
+
+.header {
+    background-color: rgb(87,97,78);
+    padding: 40px 0 46px;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    margin:0 0 2px 0;
+    padding: 0 300px 0 300px;
+    height: 12%;
+}
+
+.logo {
+    float: left;
+    padding-top: 20px;
+}
+
+.nav {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: flex-end;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+.nav__item > a {
+    padding-left: 70px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(180,194,168);
+    text-shadow: 1px 1px 1px black;
+}
+
+.nav > .nav__item:first-child > a {
+    color:white;
+}
+
+.tagline-container {
+    background-color: rgb(217,217,217);
+    padding-top: 15px;
+}
+
+.tagline {
+    background-color: rgb(233,233,233);
+    margin: 0px 370px 0 300px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 0px 2px rgba(207,207,207, 0.8);
+    display: flex;
+    z-index: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.tagline__text {
+    margin:0 0 0 150px;
+    font: 42px "Times New Roman", Times, serif;
+    text-align: center;
+    line-height: 50px;
+}
+
+h2.tagline__text {
+    font-size: 36px;
+}
+
+.promise {
+    background-color: rgb(229,229,229);
+    padding-top: 15px;
+    margin-top: 2px; 
+    display: flex;
+    justify-content: space-between;
+    padding: 0 380px 0 310px;
+    line-height: 30px;
+    font: 20px "Times New Roman", Times, serif;
+}
+
+.promise__left-text {
+    width:140%;
+    border-right: 2px dotted white;
+    font-weight: none;
+    padding: 0 50px 30px 0;
+}
+
+.promise__left-text > h2 {
+    font: 36px "Times New Roman", Times, serif;
+}
+
+.promise__left-text p > a, .promise__left-text p > a:hover {
+    color: inherit;   
+}
+
+.promise__right-text {
+    padding: 0 20px 0 20px;
+}
+
+.promise__right-text > h3 {
+    padding-top: 20px;
+    font: 22px "Times New Roman", Times, serif;
+}
+
+.promise__right-text p {
+    font: 20px "Times New Roman", Times, serif;
+}
+
+.promise__right-text footer {
+    text-align: right;
+}
+
+.advantages {
+    background-color: rgb(217,217,217);
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 360px 0 300px;
+}
+
+.advantages > h1 {
+    margin: 0;
+    display: inline;
+}
+
+.advantages__item {
+    margin:0;
+}
+
+.advantages__header-text {
+    font: 22px "Times New Roman", Times, serif;
+}
+
+
+
+
+
+.contacts {
+    background-color: rgb(217,217,217);
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 0px 360px 20px 300px;
+}
+
+.contacts__item {
+    padding: 40px 20px 20px 30px;
+    width: 33%;
+    text-align: left;
+    border-left: 2px solid lightgrey;
+}
+
+.contacts__item > h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.contacts__item > p {
+    margin: 0;
+}
+
+.input-button {
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(108,108,108);
+    color: white;
+    border-radius: 0px 3px;
+    border: none;
+    box-shadow: 0px 0px 0px 2px rgba(207,207,207, 0.8);
+}
+
+.contacts__item .input-button {
+    width: 70%;
+    padding: 15px 30px 15px 30px;
+}
+
+.contacts__item:first-child {
+    border-left: none;
+}
+
+.footer {
+    background-color: rgb(87,97,78);
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 0 360px 0 300px;
+    color: white;
+
+}
+
+.social {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.social__item {
+    padding-left: 5px;
+}
