@@ -38,7 +38,7 @@ body {
     margin-bottom: 0;
 }
 
-.nav__item > a {
+.nav__link {
     padding-left: 70px;
     text-decoration: none;
     font-weight: bold;
@@ -46,8 +46,12 @@ body {
     text-shadow: 1px 1px 1px black;
 }
 
-.nav > .nav__item:first-child > a {
+.nav__link_active {
     color:white;
+}
+
+.nav__link:hover {
+    color:gray;
 }
 
 .tagline-container {
@@ -75,7 +79,7 @@ body {
     line-height: 50px;
 }
 
-h2.tagline__text {
+.tagline__text-secondary {
     font-size: 36px;
 }
 
@@ -97,11 +101,11 @@ h2.tagline__text {
     padding: 0 50px 30px 0;
 }
 
-.promise__left-text > h2 {
+.promise__header {
     font: 36px "Times New Roman", Times, serif;
 }
 
-.promise__left-text p > a, .promise__left-text p > a:hover {
+.promise__link, .promise__link:hover {
     color: inherit;   
 }
 
@@ -109,16 +113,16 @@ h2.tagline__text {
     padding: 0 20px 0 20px;
 }
 
-.promise__right-text > h3 {
+.promise__qoute-header {
     padding-top: 20px;
     font: 22px "Times New Roman", Times, serif;
 }
 
-.promise__right-text p {
+.promise__qoute-text {
     font: 20px "Times New Roman", Times, serif;
 }
 
-.promise__right-text footer {
+.promise__qoute-author {
     text-align: right;
 }
 
@@ -180,12 +184,12 @@ h2.tagline__text {
     border-left: 2px solid lightgrey;
 }
 
-.contacts__item > h2 {
+.contacts__header {
     font-size: 18px;
     margin: 0;
 }
 
-.contacts__item > p {
+.contacts__info {
     margin: 0;
 }
 
@@ -200,7 +204,7 @@ h2.tagline__text {
     box-shadow: 0px 0px 0px 2px rgba(207,207,207, 0.8);
 }
 
-.contacts__item .input-button {
+.contacts__input-button {
     width: 70%;
     padding: 15px 30px 15px 30px;
 }
