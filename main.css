@@ -125,29 +125,41 @@ h2.tagline__text {
 .advantages {
     background-color: rgb(217,217,217);
     margin-top: 2px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 360px 0 300px;
+    padding: 20px 380px 0 390px;
 }
 
-.advantages > h1 {
-    margin: 0;
-    display: inline;
+.advantages-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.advantages__header {
+    margin: 30px 0 0 0;
+    font-size: 18px;
+}
+
+.advantages__text {
+    margin-top: 0;
 }
 
 .advantages__item {
-    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 50px 50px 0;
+}
+
+.advantages__image {
+    width: 260px;
+    border: 6px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .advantages__header-text {
     font: 22px "Times New Roman", Times, serif;
 }
-
-
-
-
 
 .contacts {
     background-color: rgb(217,217,217);
