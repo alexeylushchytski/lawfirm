@@ -159,6 +159,8 @@ h2.tagline__text {
 
 .advantages__header-text {
     font: 22px "Times New Roman", Times, serif;
+    padding: 0;
+    margin-left: -80px;
 }
 
 .contacts {
